@@ -1,1 +1,1 @@
-# Cursor
+Cursor Website

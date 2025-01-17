@@ -1,0 +1,18 @@
+.cursor-follower {
+    position: fixed;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    z-index: 9999;
+    width: 30px;
+    height: 30px;
+    background-color: #ff6347; 
+    border-radius: 50%;
+    transition: transform 0.2s ease-in-out, opacity 0.2s ease-in-out;
+    opacity: 0.7;
+}
+
+.cursor-follower:hover {
+    opacity: 1;
+    transform: scale(1.2);
+}
